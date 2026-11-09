@@ -2,7 +2,6 @@ import cv2
 import mediapipe as mp
 import pyautogui
 import math
-
 # Webcam
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
